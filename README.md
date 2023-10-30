@@ -7,7 +7,7 @@ A simple tutorial for developing a blockchain application from scratch in Python
 Clone the project,
 
 ```sh
-$ git clone https://github.com/satwikkansal/python_blockchain_app.git
+$ git clone https://github.com/BeetWang/python_blockchain_app.git
 ```
 
 Install the dependencies,
