@@ -22,28 +22,16 @@ Start a blockchain node server,
 ```sh
 $ export FLASK_APP=node_server.py
 $ flask run --port 8000
+### if flask run command not found, then type "python3 -m flask run --port 8000"
 ```
 
-### For windows users
-```
-set LANG=C.UTF-8
-set FLASK_APP=node_server.py
-flask run --port 8000
-```
 One instance of our blockchain node is now up and running at port 8000.
 
 
-Run the application on a different terminal session,
+Run the application on a different terminal session (i.e. from another terminal tab),
 
 ```sh
 $ python run_app.py
-```
-
-### For windows users
-```
-set LANG=C.UTF-8
-set FLASK_APP=run_app.py
-flask run --port 8000
 ```
 
 The application should be up and running at [http://localhost:5000](http://localhost:5000).
