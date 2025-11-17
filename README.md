@@ -63,7 +63,7 @@ $ flask run --port 8001 &
 $ flask run --port 8002 &
 ```
 
-You can use the following cURL requests to register the nodes at port `8001` and `8002` with the already running `8000`.
+You can use the following cURL requests to register the nodes at port `8001` and `8002` with the already running `8000`. (install curl if not yet: sudo apt-get install curl).
 
 ```sh
 curl -X POST \
